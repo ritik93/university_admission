@@ -29,7 +29,7 @@ where
 * m is the number of training examples in the dataset
 
 
-* $$loss(f_{\mathbf{w},b}(\mathbf{x}^{(i)}), y^{(i)})$$ is the cost for a single data point, which is - 
+* The logistic loss (the cost) for a single data point is - 
 
     $$loss(f_{\mathbf{w},b}(\mathbf{x}^{(i)}), y^{(i)}) = (-y^{(i)} \log\left(f_{\mathbf{w},b}\left( \mathbf{x}^{(i)} \right) \right) - \left( 1 - y^{(i)}\right) \log \left( 1 - f_{\mathbf{w},b}\left( \mathbf{x}^{(i)} \right) \right)$$
     
