@@ -10,6 +10,7 @@ Suppose that you are the administrator of a university department and you want t
 Our goal is to build a logistic regression model to fit this data.
 - With this model, we can then predict if a new student will be admitted based on their scores on the two exams.
   
+  ---
 For logistic regression, the model is represented as
 
   𝑓(𝑥)=𝑔(𝐰⋅𝐱+𝑏)
