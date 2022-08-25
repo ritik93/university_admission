@@ -23,7 +23,7 @@ $$g(z) = \frac{1}{1+e^{-z}}$$
 ---
 For logistic regression, the cost function is of the form 
 
-$$  \frac{1}{m}\sum_{i=0}^{m-1} \left[ loss(f_{\mathbf{w},b}(\mathbf{x}^{(i)}), y^{(i)}) \right]$$
+$$  J(\mathbf{w},b) = \frac{1}{m}\sum_{i=0}^{m-1} \left[ loss(f_{\mathbf{w},b}(\mathbf{x}^{(i)}), y^{(i)}) \right]$$
 
 where
 * m is the number of training examples in the dataset
