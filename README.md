@@ -10,7 +10,7 @@ Suppose that you are the administrator of a university department and you want t
 Our goal is to build a logistic regression model to fit this data.
 - With this model, we can then predict if a new student will be admitted based on their scores on the two exams.
   
-  ---
+---
 For logistic regression, the model is represented as
 
   𝑓(𝑥)=𝑔(𝐰⋅𝐱+𝑏)
@@ -20,7 +20,7 @@ where function $g$ is the sigmoid function. The sigmoid function is defined as:
 $$g(z) = \frac{1}{1+e^{-z}}$$
 
 
-  
+--
 For logistic regression, the cost function is of the form 
 
 $$ J(\mathbf{w},b) = \frac{1}{m}\sum_{i=0}^{m-1} \left[ loss(f_{\mathbf{w},b}(\mathbf{x}^{(i)}), y^{(i)}) \right] \tag{1}$$
