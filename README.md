@@ -19,7 +19,8 @@ where function $g$ is the sigmoid function. The sigmoid function is defined as:
 
 $$g(z) = \frac{1}{1+e^{-z}}$$
 
-
+  
+  
 ---
 For logistic regression, the cost function is of the form 
 
